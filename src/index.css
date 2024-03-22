@@ -1,0 +1,30 @@
+.loginwrapper {
+  width: 50%;
+  margin: auto;
+}
+
+.loginwrapper h2 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .loginwrapper {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.CardWrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
